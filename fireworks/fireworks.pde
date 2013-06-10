@@ -10,7 +10,7 @@ PVector Pos;
 PVector acceleration;
 PVector velocity;
 
-Fireworks test = new Fireworks(new PVector(0, 0, 0));
+Spark test = new Spark(new PVector(0, 0, 0));
 void setup() {
   size(width, height);
   Pos = new PVector (width/2, height/2, 0);

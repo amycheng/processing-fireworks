@@ -3,8 +3,8 @@
 void mouseClicked() {
   println("click");
   println(mouseX+":"+mouseY);
-  Fireworks spark = new Fireworks(new PVector(mouseX, mouseY, 0));
-  spark.run();
+//  Fireworks spark = new Fireworks(new PVector(mouseX, mouseY, 0));
+  //spark.run();
   //render();
 }
 

@@ -11,7 +11,7 @@ PSEUDO CODE
 BUGS
  - sparks aren't moving
  */
-class Fireworks {
+class Spark {
   //our constructor
   //vectors for movement
   PVector Pos;
@@ -19,7 +19,7 @@ class Fireworks {
   PVector velocity;
   //PVector targetPos;
 
-  Fireworks(PVector pos) {
+  Spark(PVector pos) {
     Pos = pos.get();
     acceleration = new PVector(0, 0, 0.05);
     velocity = new PVector(random(-1, 1), random(-2, 0));
@@ -39,7 +39,6 @@ class Fireworks {
   void update() {
     velocity.add(acceleration);
     Pos.add(velocity);
-    println("updating");
   }
 
   void destroy() {
