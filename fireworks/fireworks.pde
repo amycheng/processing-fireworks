@@ -1,3 +1,10 @@
+/*
+TASKS:
+- add tail flare
+- explore in a circle not a square (use target PVector)
+- add colors
+*/
+
 int width = 800;
 int height = 800;
 
